@@ -1,133 +1,13 @@
 <div align="center">
 
-<!-- ANIMATED SVG BANNER -->
-<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#020c1b;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#0a192f;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#020c1b;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#64ffda" />
-      <stop offset="50%" style="stop-color:#00b4d8" />
-      <stop offset="100%" style="stop-color:#64ffda" />
-    </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#64ffda;stop-opacity:0" />
-      <stop offset="50%" style="stop-color:#64ffda;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#64ffda;stop-opacity:0" />
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softglow">
-      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <!-- Background -->
-  <rect width="900" height="280" fill="url(#oceanGrad)" rx="12"/>
-
-  <!-- Grid lines -->
-  <g opacity="0.06" stroke="#64ffda" stroke-width="0.5">
-    <line x1="0" y1="40" x2="900" y2="40"/>
-    <line x1="0" y1="80" x2="900" y2="80"/>
-    <line x1="0" y1="120" x2="900" y2="120"/>
-    <line x1="0" y1="160" x2="900" y2="160"/>
-    <line x1="0" y1="200" x2="900" y2="200"/>
-    <line x1="0" y1="240" x2="900" y2="240"/>
-    <line x1="80" y1="0" x2="80" y2="280"/>
-    <line x1="200" y1="0" x2="200" y2="280"/>
-    <line x1="320" y1="0" x2="320" y2="280"/>
-    <line x1="440" y1="0" x2="440" y2="280"/>
-    <line x1="560" y1="0" x2="560" y2="280"/>
-    <line x1="680" y1="0" x2="680" y2="280"/>
-    <line x1="800" y1="0" x2="800" y2="280"/>
-  </g>
-
-  <!-- Neural network dots -->
-  <g filter="url(#glow)">
-    <circle cx="80" cy="80" r="3" fill="#64ffda" opacity="0.7">
-      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="200" cy="120" r="3" fill="#00b4d8" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="140" cy="180" r="2" fill="#64ffda" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="780" cy="80" r="3" fill="#64ffda" opacity="0.7">
-      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="820" cy="160" r="2.5" fill="#00b4d8" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="860" cy="100" r="2" fill="#64ffda" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Connection lines -->
-    <line x1="80" y1="80" x2="200" y2="120" stroke="#64ffda" stroke-width="0.5" opacity="0.3"/>
-    <line x1="200" y1="120" x2="140" y2="180" stroke="#00b4d8" stroke-width="0.5" opacity="0.3"/>
-    <line x1="780" y1="80" x2="820" y2="160" stroke="#64ffda" stroke-width="0.5" opacity="0.3"/>
-    <line x1="820" y1="160" x2="860" y2="100" stroke="#00b4d8" stroke-width="0.5" opacity="0.3"/>
-  </g>
-
-  <!-- Top accent line -->
-  <rect x="0" y="0" width="900" height="2" fill="url(#lineGrad)" rx="1"/>
-  <rect x="0" y="278" width="900" height="2" fill="url(#lineGrad)" rx="1"/>
-
-  <!-- Bracket decorations -->
-  <text x="30" y="155" font-family="monospace" font-size="60" fill="#64ffda" opacity="0.12" filter="url(#softglow)">{</text>
-  <text x="840" y="155" font-family="monospace" font-size="60" fill="#64ffda" opacity="0.12" filter="url(#softglow)">}</text>
-
-  <!-- Main Name -->
-  <text x="450" y="115" font-family="'Courier New', monospace" font-size="62" font-weight="900"
-    text-anchor="middle" fill="url(#textGrad)" filter="url(#softglow)" letter-spacing="12">
-    VAIBHAVI
-  </text>
-
-  <!-- Divider line -->
-  <rect x="300" y="128" width="300" height="1.5" fill="url(#lineGrad)" rx="1"/>
-
-  <!-- Role subtitle -->
-  <text x="450" y="162" font-family="'Courier New', monospace" font-size="15"
-    text-anchor="middle" fill="#8892b0" letter-spacing="5">
-    ML / AI ENGINEER  ·  BUILDER  ·  EXPLORER
-  </text>
-
-  <!-- Typing cursor animation -->
-  <text x="450" y="200" font-family="'Courier New', monospace" font-size="13"
-    text-anchor="middle" fill="#64ffda" opacity="0.7" letter-spacing="2">
-    &gt; training models &amp; shipping intelligent systems_
-  </text>
-  <rect x="680" y="187" width="8" height="14" fill="#64ffda" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Bottom wave -->
-  <path d="M0 255 Q225 235 450 255 Q675 275 900 255 L900 280 L0 280 Z" fill="#64ffda" opacity="0.04"/>
-</svg>
-
----
+<!-- BANNER via capsule-render — fully animated, GitHub-safe -->
+![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=280&section=header&text=VAIBHAVI&fontSize=80&fontColor=64ffda&fontAlignY=38&desc=ML%20%2F%20AI%20Engineer%20·%20Builder%20·%20Explorer&descAlignY=58&descSize=18&descColor=8892b0&animation=fadeIn)
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=64FFDA&center=true&vCenter=true&multiline=false&width=700&lines=%F0%9F%A7%A0+Building+Neural+Networks+from+scratch;%F0%9F%A4%96+Training+LLMs+%26+Fine-tuning+Transformers;%F0%9F%8C%8A+Turning+Data+into+Intelligence;%F0%9F%9A%80+Shipping+AI-powered+Products;%F0%9F%94%AC+Researcher+%7C+Engineer+%7C+Creator" alt="Typing SVG" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=64FFDA&center=true&vCenter=true&width=700&lines=%F0%9F%A7%A0+Building+Neural+Networks+from+scratch;%F0%9F%A4%96+Fine-tuning+LLMs+%26+Transformers;%F0%9F%8C%8A+Turning+Data+into+Intelligence;%F0%9F%9A%80+Shipping+AI-powered+Products;%F0%9F%94%AC+Researcher+%7C+Engineer+%7C+Creator)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- PROFILE VIEWS + FOLLOWERS BADGES -->
 ![Profile Views](https://komarev.com/ghpvc/?username=VAIBHAVI&color=64ffda&style=for-the-badge&label=PROFILE+VIEWS)
 ![GitHub followers](https://img.shields.io/github/followers/VAIBHAVI?style=for-the-badge&color=64ffda&labelColor=0a192f&logo=github)
 ![GitHub stars](https://img.shields.io/github/stars/VAIBHAVI?style=for-the-badge&color=00b4d8&labelColor=0a192f&logo=github)
@@ -136,7 +16,6 @@
 
 ---
 
-<!-- ABOUT ME -->
 ## 🌊 `whoami`
 
 ```python
@@ -161,7 +40,6 @@ me.say_hi()
 
 ---
 
-<!-- TECH STACK -->
 ## 🛠️ Tech Arsenal
 
 ### 🧠 AI / ML Core
@@ -184,7 +62,7 @@ me.say_hi()
 ![Docker](https://img.shields.io/badge/Docker-0a192f?style=for-the-badge&logo=docker&logoColor=64ffda)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0a192f?style=for-the-badge&logo=kubernetes&logoColor=00b4d8)
 ![MLflow](https://img.shields.io/badge/MLflow-0a192f?style=for-the-badge&logo=mlflow&logoColor=64ffda)
-![Weights & Biases](https://img.shields.io/badge/W%26B-0a192f?style=for-the-badge&logo=weightsandbiases&logoColor=64ffda)
+![W&B](https://img.shields.io/badge/W%26B-0a192f?style=for-the-badge&logo=weightsandbiases&logoColor=64ffda)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0a192f?style=for-the-badge&logo=fastapi&logoColor=00b4d8)
 ![Airflow](https://img.shields.io/badge/Airflow-0a192f?style=for-the-badge&logo=apacheairflow&logoColor=64ffda)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a192f?style=for-the-badge&logo=githubactions&logoColor=00b4d8)
@@ -205,56 +83,45 @@ me.say_hi()
 
 ---
 
-<!-- GITHUB STATS -->
 ## 📊 GitHub Intelligence Report
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VAIBHAVI&show_icons=true&theme=react&bg_color=0a192f&border_color=64ffda&icon_color=64ffda&title_color=64ffda&text_color=8892b0&hide_border=false&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=VAIBHAVI&theme=dark&background=0a192f&border=64ffda&ring=64ffda&fire=00b4d8&currStreakLabel=64ffda&sideLabels=8892b0&dates=8892b0&sideNums=64ffda&currStreakNum=ffffff" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VAIBHAVI&show_icons=true&theme=react&bg_color=0a192f&border_color=64ffda&icon_color=64ffda&title_color=64ffda&text_color=8892b0&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://streak-stats.demolab.com?user=VAIBHAVI&theme=dark&background=0a192f&border=64ffda&ring=64ffda&fire=00b4d8&currStreakLabel=64ffda&sideLabels=8892b0&dates=8892b0&sideNums=64ffda&currStreakNum=ffffff" />
 
-</div>
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VAIBHAVI&layout=compact&theme=react&bg_color=0a192f&border_color=64ffda&title_color=64ffda&text_color=8892b0&hide_border=false&langs_count=8" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VAIBHAVI&bg_color=0a192f&color=64ffda&line=00b4d8&point=64ffda&area=true&area_color=64ffda&hide_border=false&border_color=64ffda" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VAIBHAVI&layout=compact&theme=react&bg_color=0a192f&border_color=64ffda&title_color=64ffda&text_color=8892b0&langs_count=8" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VAIBHAVI&bg_color=0a192f&color=64ffda&line=00b4d8&point=64ffda&area=true&hide_border=false&border_color=64ffda" />
 
 </div>
 
 ---
 
-<!-- 3D CONTRIBUTION GRAPH -->
-## 🌐 3D Contribution Map
+## 🐍 Contribution Snake
 
 <div align="center">
 
-<!-- GitHub 3D contribution snake -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VAIBHAVI/VAIBHAVI/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VAIBHAVI/VAIBHAVI/output/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/VAIBHAVI/VAIBHAVI/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VAIBHAVI/VAIBHAVI/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VAIBHAVI/VAIBHAVI/output/github-snake.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/VAIBHAVI/VAIBHAVI/output/github-snake-dark.svg"/>
 </picture>
 
-> _Enable the snake animation via GitHub Actions — workflow config below_ ⬇️
-
 </div>
 
 ---
 
-<!-- GITHUB TROPHIES -->
 ## 🏆 Trophy Cabinet
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=VAIBHAVI&theme=nord&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false&title=MultiLanguage,Commits,Stars,Followers,Issues,PullRequest,Repositories)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=VAIBHAVI&theme=nord&column=7&margin-w=10&margin-h=10&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 ---
 
-<!-- PROFILE SUMMARY -->
-## 📈 Profile Summary Card
+## 📈 Profile Summary
 
 <div align="center">
 
@@ -264,7 +131,6 @@ me.say_hi()
 
 ---
 
-<!-- SKILLS MATRIX -->
 ## 🔬 Skills Matrix
 
 ```
@@ -280,81 +146,6 @@ BACKEND / API         █████████████░░░░░░�
 
 ---
 
-<!-- GITHUB ACTIONS WORKFLOW FOR SNAKE -->
-## ⚙️ GitHub Actions — Snake & Auto-Update
-
-<details>
-<summary><b>📋 Click to expand workflow configs</b></summary>
-
-### 🐍 Snake Animation Workflow
-Save as `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-### 📊 Auto-update README Workflow
-Save as `.github/workflows/update-readme.yml`:
-
-```yaml
-name: Update README Metrics
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: VAIBHAVI
-          template: classic
-          base: header, activity, community, repositories, metadata
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_stars: yes
-          plugin_stars_limit: 4
-```
-
-</details>
-
----
-
-<!-- CURRENT FOCUS / PROJECTS -->
 ## 🚀 Currently Shipping
 
 <div align="center">
@@ -370,19 +161,69 @@ jobs:
 
 ---
 
-<!-- GITHUB ACTION METRICS -->
-## 📡 Live Metrics
+## ⚙️ GitHub Actions
 
-<div align="center">
+<details>
+<summary><b>🐍 Snake workflow — <code>.github/workflows/snake.yml</code></b></summary>
 
-[![Metrics](https://metrics.lecoq.io/VAIBHAVI?template=classic&base=header,activity,community,repositories,metadata&base.indepth=false&base.hireable=false&base.skip=false&config.timezone=Asia%2FKolkata)](https://metrics.lecoq.io/)
+```yaml
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
 
-</div>
+</details>
+
+<details>
+<summary><b>📊 Metrics workflow — <code>.github/workflows/metrics.yml</code></b></summary>
+
+```yaml
+name: Update README Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: VAIBHAVI
+          base: header, activity, community, repositories
+          plugin_languages: yes
+          plugin_stars: yes
+```
+
+</details>
 
 ---
 
-<!-- CONNECT -->
-## 🌐 Find Me In The Matrix
+## 🌐 Find Me
 
 <div align="center">
 
@@ -391,33 +232,10 @@ jobs:
 [![Kaggle](https://img.shields.io/badge/Kaggle-0a192f?style=for-the-badge&logo=kaggle&logoColor=00b4d8)](https://kaggle.com/VAIBHAVI)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-0a192f?style=for-the-badge&logo=huggingface&logoColor=64ffda)](https://huggingface.co/VAIBHAVI)
 [![Gmail](https://img.shields.io/badge/Gmail-0a192f?style=for-the-badge&logo=gmail&logoColor=00b4d8)](mailto:vaibhavi@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0a192f?style=for-the-badge&logo=vercel&logoColor=64ffda)](https://vaibhavi.dev)
 
 </div>
 
 ---
 
-<!-- FOOTER -->
-<div align="center">
-
-<!-- Wave footer SVG -->
-<svg width="900" height="80" viewBox="0 0 900 80" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#020c1b"/>
-      <stop offset="50%" style="stop-color:#0a192f"/>
-      <stop offset="100%" style="stop-color:#020c1b"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="80" fill="url(#waveGrad)" rx="8"/>
-  <path d="M0 40 Q112 20 225 40 Q337 60 450 40 Q562 20 675 40 Q787 60 900 40" stroke="#64ffda" stroke-width="1.5" fill="none" opacity="0.4"/>
-  <path d="M0 50 Q112 30 225 50 Q337 70 450 50 Q562 30 675 50 Q787 70 900 50" stroke="#00b4d8" stroke-width="1" fill="none" opacity="0.3"/>
-  <text x="450" y="35" font-family="'Courier New', monospace" font-size="11" text-anchor="middle" fill="#64ffda" opacity="0.8" letter-spacing="3">
-    ⚡ BUILT WITH PASSION · TRAINED ON CURIOSITY · DEPLOYED WITH PURPOSE ⚡
-  </text>
-  <text x="450" y="58" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#8892b0" letter-spacing="2">
-    © 2025 VAIBHAVI · ML/AI ENGINEER
-  </text>
-</svg>
-
-</div>
+<!-- FOOTER BANNER -->
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&text=⚡+Built+with+Passion+·+Trained+on+Curiosity&fontSize=16&fontColor=64ffda&fontAlignY=65&animation=fadeIn)
