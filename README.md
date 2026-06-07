@@ -1,22 +1,22 @@
 <div align="center">
 
-<!-- BANNER via capsule-render — fully animated, GitHub-safe -->
-![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=280&section=header&text=VAIBHAVI&fontSize=80&fontColor=64ffda&fontAlignY=38&desc=ML%20%2F%20AI%20Engineer%20·%20Builder%20·%20Explorer&descAlignY=58&descSize=18&descColor=8892b0&animation=fadeIn)
+<!-- BANNER — deep space purple via capsule-render -->
+![banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=VAIBHAVI&fontSize=80&fontColor=bf94ff&fontAlignY=38&desc=ML%20%2F%20AI%20Engineer%20·%20Builder%20·%20Explorer&descAlignY=58&descSize=18&descColor=9d7fe0&animation=fadeIn)
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=64FFDA&center=true&vCenter=true&width=700&lines=%F0%9F%A7%A0+Building+Neural+Networks+from+scratch;%F0%9F%A4%96+Fine-tuning+LLMs+%26+Transformers;%F0%9F%8C%8A+Turning+Data+into+Intelligence;%F0%9F%9A%80+Shipping+AI-powered+Products;%F0%9F%94%AC+Researcher+%7C+Engineer+%7C+Creator)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=BF94FF&center=true&vCenter=true&width=700&lines=%F0%9F%A7%A0+Building+Neural+Networks+from+scratch;%F0%9F%A4%96+Fine-tuning+LLMs+%26+Transformers;%F0%9F%8C%8C+Turning+Data+into+Intelligence;%F0%9F%9A%80+Shipping+AI-powered+Products;%F0%9F%94%AC+Researcher+%7C+Engineer+%7C+Creator)](https://git.io/typing-svg)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=VAIBHAVI&color=64ffda&style=for-the-badge&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/VAIBHAVI?style=for-the-badge&color=64ffda&labelColor=0a192f&logo=github)
-![GitHub stars](https://img.shields.io/github/stars/VAIBHAVI?style=for-the-badge&color=00b4d8&labelColor=0a192f&logo=github)
+![Profile Views](https://komarev.com/ghpvc/?username=VAIBHAVI&color=bf94ff&style=for-the-badge&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/VAIBHAVI?style=for-the-badge&color=bf94ff&labelColor=0d0d1a&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/VAIBHAVI?style=for-the-badge&color=7c3aed&labelColor=0d0d1a&logo=github)
 
 </div>
 
 ---
 
-## 🌊 `whoami`
+## 🌌 `whoami`
 
 ```python
 class Vaibhavi:
@@ -45,39 +45,39 @@ me.say_hi()
 ### 🧠 AI / ML Core
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0a192f?style=for-the-badge&logo=python&logoColor=64ffda)
-![PyTorch](https://img.shields.io/badge/PyTorch-0a192f?style=for-the-badge&logo=pytorch&logoColor=64ffda)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0a192f?style=for-the-badge&logo=tensorflow&logoColor=00b4d8)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-0a192f?style=for-the-badge&logo=huggingface&logoColor=64ffda)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0a192f?style=for-the-badge&logo=scikit-learn&logoColor=00b4d8)
-![OpenCV](https://img.shields.io/badge/OpenCV-0a192f?style=for-the-badge&logo=opencv&logoColor=64ffda)
-![LangChain](https://img.shields.io/badge/LangChain-0a192f?style=for-the-badge&logo=chainlink&logoColor=64ffda)
-![ONNX](https://img.shields.io/badge/ONNX-0a192f?style=for-the-badge&logo=onnx&logoColor=00b4d8)
+![Python](https://img.shields.io/badge/Python-0d0d1a?style=for-the-badge&logo=python&logoColor=bf94ff)
+![PyTorch](https://img.shields.io/badge/PyTorch-0d0d1a?style=for-the-badge&logo=pytorch&logoColor=bf94ff)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0d0d1a?style=for-the-badge&logo=tensorflow&logoColor=7c3aed)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-0d0d1a?style=for-the-badge&logo=huggingface&logoColor=bf94ff)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0d0d1a?style=for-the-badge&logo=scikit-learn&logoColor=7c3aed)
+![OpenCV](https://img.shields.io/badge/OpenCV-0d0d1a?style=for-the-badge&logo=opencv&logoColor=bf94ff)
+![LangChain](https://img.shields.io/badge/LangChain-0d0d1a?style=for-the-badge&logo=chainlink&logoColor=bf94ff)
+![ONNX](https://img.shields.io/badge/ONNX-0d0d1a?style=for-the-badge&logo=onnx&logoColor=7c3aed)
 
 </div>
 
 ### ⚙️ MLOps & Infrastructure
 <div align="center">
 
-![Docker](https://img.shields.io/badge/Docker-0a192f?style=for-the-badge&logo=docker&logoColor=64ffda)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0a192f?style=for-the-badge&logo=kubernetes&logoColor=00b4d8)
-![MLflow](https://img.shields.io/badge/MLflow-0a192f?style=for-the-badge&logo=mlflow&logoColor=64ffda)
-![W&B](https://img.shields.io/badge/W%26B-0a192f?style=for-the-badge&logo=weightsandbiases&logoColor=64ffda)
-![FastAPI](https://img.shields.io/badge/FastAPI-0a192f?style=for-the-badge&logo=fastapi&logoColor=00b4d8)
-![Airflow](https://img.shields.io/badge/Airflow-0a192f?style=for-the-badge&logo=apacheairflow&logoColor=64ffda)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a192f?style=for-the-badge&logo=githubactions&logoColor=00b4d8)
+![Docker](https://img.shields.io/badge/Docker-0d0d1a?style=for-the-badge&logo=docker&logoColor=bf94ff)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0d0d1a?style=for-the-badge&logo=kubernetes&logoColor=7c3aed)
+![MLflow](https://img.shields.io/badge/MLflow-0d0d1a?style=for-the-badge&logo=mlflow&logoColor=bf94ff)
+![W&B](https://img.shields.io/badge/W%26B-0d0d1a?style=for-the-badge&logo=weightsandbiases&logoColor=bf94ff)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d0d1a?style=for-the-badge&logo=fastapi&logoColor=7c3aed)
+![Airflow](https://img.shields.io/badge/Airflow-0d0d1a?style=for-the-badge&logo=apacheairflow&logoColor=bf94ff)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d0d1a?style=for-the-badge&logo=githubactions&logoColor=7c3aed)
 
 </div>
 
 ### ☁️ Cloud & Data
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-0a192f?style=for-the-badge&logo=amazonaws&logoColor=64ffda)
-![GCP](https://img.shields.io/badge/GCP-0a192f?style=for-the-badge&logo=googlecloud&logoColor=00b4d8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a192f?style=for-the-badge&logo=postgresql&logoColor=64ffda)
-![MongoDB](https://img.shields.io/badge/MongoDB-0a192f?style=for-the-badge&logo=mongodb&logoColor=00b4d8)
-![Redis](https://img.shields.io/badge/Redis-0a192f?style=for-the-badge&logo=redis&logoColor=64ffda)
-![Spark](https://img.shields.io/badge/Apache_Spark-0a192f?style=for-the-badge&logo=apachespark&logoColor=00b4d8)
+![AWS](https://img.shields.io/badge/AWS-0d0d1a?style=for-the-badge&logo=amazonaws&logoColor=bf94ff)
+![GCP](https://img.shields.io/badge/GCP-0d0d1a?style=for-the-badge&logo=googlecloud&logoColor=7c3aed)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d1a?style=for-the-badge&logo=postgresql&logoColor=bf94ff)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d0d1a?style=for-the-badge&logo=mongodb&logoColor=7c3aed)
+![Redis](https://img.shields.io/badge/Redis-0d0d1a?style=for-the-badge&logo=redis&logoColor=bf94ff)
+![Spark](https://img.shields.io/badge/Apache_Spark-0d0d1a?style=for-the-badge&logo=apachespark&logoColor=7c3aed)
 
 </div>
 
@@ -87,11 +87,14 @@ me.say_hi()
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VAIBHAVI&show_icons=true&theme=react&bg_color=0a192f&border_color=64ffda&icon_color=64ffda&title_color=64ffda&text_color=8892b0&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://streak-stats.demolab.com?user=VAIBHAVI&theme=dark&background=0a192f&border=64ffda&ring=64ffda&fire=00b4d8&currStreakLabel=64ffda&sideLabels=8892b0&dates=8892b0&sideNums=64ffda&currStreakNum=ffffff" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VAIBHAVI&show_icons=true&theme=tokyonight&bg_color=0d0d1a&border_color=7c3aed&icon_color=bf94ff&title_color=bf94ff&text_color=9d7fe0&count_private=true&include_all_commits=true&ring_color=7c3aed" />
+<img width="49%" src="https://streak-stats.demolab.com?user=VAIBHAVI&theme=tokyonight&background=0d0d1a&border=7c3aed&ring=bf94ff&fire=7c3aed&currStreakLabel=bf94ff&sideLabels=9d7fe0&dates=9d7fe0&sideNums=bf94ff&currStreakNum=ffffff" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VAIBHAVI&layout=compact&theme=react&bg_color=0a192f&border_color=64ffda&title_color=64ffda&text_color=8892b0&langs_count=8" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VAIBHAVI&bg_color=0a192f&color=64ffda&line=00b4d8&point=64ffda&area=true&hide_border=false&border_color=64ffda" />
+<!-- Top langs — purple theme -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VAIBHAVI&layout=compact&bg_color=0d0d1a&border_color=7c3aed&title_color=bf94ff&text_color=9d7fe0&langs_count=8" />
+
+<!-- Contribution graph — dark purple -->
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=VAIBHAVI&bg_color=0d0d1a&color=bf94ff&line=7c3aed&point=bf94ff&area=true&area_color=7c3aed&hide_border=false&border_color=7c3aed" />
 
 </div>
 
@@ -115,7 +118,7 @@ me.say_hi()
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=VAIBHAVI&theme=nord&column=7&margin-w=10&margin-h=10&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=VAIBHAVI&theme=dracula&column=7&margin-w=10&margin-h=10&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -227,15 +230,15 @@ jobs:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a192f?style=for-the-badge&logo=linkedin&logoColor=64ffda)](https://linkedin.com/in/VAIBHAVI)
-[![Twitter](https://img.shields.io/badge/Twitter-0a192f?style=for-the-badge&logo=x&logoColor=64ffda)](https://twitter.com/VAIBHAVI)
-[![Kaggle](https://img.shields.io/badge/Kaggle-0a192f?style=for-the-badge&logo=kaggle&logoColor=00b4d8)](https://kaggle.com/VAIBHAVI)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-0a192f?style=for-the-badge&logo=huggingface&logoColor=64ffda)](https://huggingface.co/VAIBHAVI)
-[![Gmail](https://img.shields.io/badge/Gmail-0a192f?style=for-the-badge&logo=gmail&logoColor=00b4d8)](mailto:vaibhavi@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d1a?style=for-the-badge&logo=linkedin&logoColor=bf94ff)](https://linkedin.com/in/VAIBHAVI)
+[![Twitter](https://img.shields.io/badge/Twitter-0d0d1a?style=for-the-badge&logo=x&logoColor=bf94ff)](https://twitter.com/VAIBHAVI)
+[![Kaggle](https://img.shields.io/badge/Kaggle-0d0d1a?style=for-the-badge&logo=kaggle&logoColor=7c3aed)](https://kaggle.com/VAIBHAVI)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-0d0d1a?style=for-the-badge&logo=huggingface&logoColor=bf94ff)](https://huggingface.co/VAIBHAVI)
+[![Gmail](https://img.shields.io/badge/Gmail-0d0d1a?style=for-the-badge&logo=gmail&logoColor=7c3aed)](mailto:vaibhavi@email.com)
 
 </div>
 
 ---
 
-<!-- FOOTER BANNER -->
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&text=⚡+Built+with+Passion+·+Trained+on+Curiosity&fontSize=16&fontColor=64ffda&fontAlignY=65&animation=fadeIn)
+<!-- FOOTER BANNER — deep space purple -->
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=⚡+Built+with+Passion+·+Trained+on+Curiosity&fontSize=16&fontColor=bf94ff&fontAlignY=65&animation=fadeIn)
