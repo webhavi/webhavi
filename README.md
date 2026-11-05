@@ -2,15 +2,13 @@
 
 <img src="./assets/banner.svg" alt="Vaibhavi Sharnagat — ML / AI Engineer" width="100%"/>
 
-<!-- typing animation -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=BF94FF&center=true&vCenter=true&width=760&height=40&lines=Building+neural+networks+from+scratch;Fine-tuning+LLMs+%26+Transformers;Turning+data+into+intelligence;Shipping+AI-powered+products;Researcher+%7C+Engineer+%7C+Creator" alt="Typing SVG"/></a>
 
-<!-- nav (click to jump) -->
 <p>
 <a href="#about"><img src="https://img.shields.io/badge/ABOUT-0d0d1a?style=for-the-badge&logo=gnometerminal&logoColor=bf94ff" alt="about"/></a>
-<a href="#stack"><img src="https://img.shields.io/badge/STACK-0d0d1a?style=for-the-badge&logo=stackblitz&logoColor=bf94ff" alt="stack"/></a>
+<a href="#stack"><img src="https://img.shields.io/badge/3D_SKYLINE-0d0d1a?style=for-the-badge&logo=stackblitz&logoColor=bf94ff" alt="skyline"/></a>
+<a href="#galaxy"><img src="https://img.shields.io/badge/GALAXY-0d0d1a?style=for-the-badge&logo=planet&logoColor=22d3ee" alt="galaxy"/></a>
 <a href="#leetcode"><img src="https://img.shields.io/badge/LEETCODE-0d0d1a?style=for-the-badge&logo=leetcode&logoColor=ffa116" alt="leetcode"/></a>
-<a href="#trophies"><img src="https://img.shields.io/badge/TROPHIES-0d0d1a?style=for-the-badge&logo=awesomelists&logoColor=fbbf24" alt="trophies"/></a>
 <a href="#activity"><img src="https://img.shields.io/badge/3D_GRAPH-0d0d1a?style=for-the-badge&logo=github&logoColor=22d3ee" alt="3d graph"/></a>
 <a href="#shipping"><img src="https://img.shields.io/badge/SHIPPING-0d0d1a?style=for-the-badge&logo=rocket&logoColor=f472b6" alt="shipping"/></a>
 <a href="#contact"><img src="https://img.shields.io/badge/CONTACT-0d0d1a?style=for-the-badge&logo=gmail&logoColor=34d399" alt="contact"/></a>
@@ -18,8 +16,11 @@
 
 <img src="https://komarev.com/ghpvc/?username=webhavi&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0d0d1a" alt="views"/>
 <a href="https://github.com/webhavi?tab=followers"><img src="https://img.shields.io/github/followers/webhavi?style=for-the-badge&color=bf94ff&labelColor=0d0d1a&logo=github" alt="followers"/></a>
-<a href="https://github.com/webhavi?tab=repositories"><img src="https://img.shields.io/github/stars/webhavi?style=for-the-badge&color=7c3aed&labelColor=0d0d1a&logo=github" alt="stars"/></a>
 <a href="https://leetcode.com/u/vaibhavisharnagat/"><img src="https://img.shields.io/badge/LeetCode-66_solved-0d0d1a?style=for-the-badge&logo=leetcode&logoColor=ffa116&labelColor=0d0d1a&color=ffa116" alt="leetcode solved"/></a>
+
+<br/><br/>
+
+<img src="./assets/boot.svg" alt="boot sequence" width="100%"/>
 
 </div>
 
@@ -64,6 +65,8 @@ Vaibhavi().say_hi()
 ## 🧬 Capability Stack
 
 <div align="center">
+<img src="./assets/skyline.svg" alt="Isometric 3D skill skyline" width="100%"/>
+<br/>
 <img src="./assets/stack.svg" alt="Capability stack" width="100%"/>
 </div>
 
@@ -93,6 +96,18 @@ Vaibhavi().say_hi()
 
 </div>
 </details>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+<a id="galaxy"></a>
+
+## 🪐 Skill Galaxy
+
+<div align="center">
+<img src="./assets/galaxy.svg" alt="Orbiting skill galaxy" width="100%"/>
+<br/>
+<sub>🛰️ Three orbits: models → frameworks → infrastructure. Nodes shrink and fade as they swing behind the core.</sub>
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -137,9 +152,7 @@ Vaibhavi().say_hi()
 ## 🧊 3D Contribution Graph
 
 <div align="center">
-
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
-
+<img src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%"/>
 </div>
 
 <details>
@@ -148,16 +161,16 @@ Vaibhavi().say_hi()
 <div align="center">
 
 **Green · animated**
-<img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="green animate"/>
+<img src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="green animate"/>
 
 **Season · animated**
-<img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="season animate"/>
+<img src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-3d-contrib/profile-season-animate.svg" width="100%" alt="season animate"/>
 
 **Night green**
-<img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="night green"/>
+<img src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="night green"/>
 
 **Git block**
-<img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="git block"/>
+<img src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-3d-contrib/profile-gitblock.svg" width="100%" alt="git block"/>
 
 </div>
 </details>
@@ -168,7 +181,7 @@ Vaibhavi().say_hi()
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake-dark.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake-dark.svg" width="100%"/>
 </picture>
 </div>
 
@@ -176,11 +189,11 @@ Vaibhavi().say_hi()
 
 <div align="center">
 
-<img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="profile details"/>
-<img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="stats"/>
-<img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="top commit languages"/>
-<img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language"/>
-<img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time"/>
+<img width="49%" src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="profile details"/>
+<img width="49%" src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="stats"/>
+<img width="49%" src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="top commit languages"/>
+<img width="49%" src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language"/>
+<img width="49%" src="https://raw.githubusercontent.com/webhavi/webhavi/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time"/>
 
 </div>
 
@@ -214,6 +227,10 @@ Vaibhavi().say_hi()
 ## 🌐 Find Me
 
 <div align="center">
+
+<img src="./assets/pixel-name.svg" alt="VAIBHAVI in pixel blocks" width="100%"/>
+
+<br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-0d0d1a?style=for-the-badge&logo=github&logoColor=bf94ff)](https://github.com/webhavi)
 [![LeetCode](https://img.shields.io/badge/LeetCode-0d0d1a?style=for-the-badge&logo=leetcode&logoColor=ffa116)](https://leetcode.com/u/vaibhavisharnagat/)
