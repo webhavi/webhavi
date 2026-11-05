@@ -16,9 +16,9 @@
 <a href="#contact"><img src="https://img.shields.io/badge/CONTACT-0d0d1a?style=for-the-badge&logo=gmail&logoColor=34d399" alt="contact"/></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=vaibhavisharnagat&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0d0d1a" alt="views"/>
-<a href="https://github.com/vaibhavisharnagat?tab=followers"><img src="https://img.shields.io/github/followers/vaibhavisharnagat?style=for-the-badge&color=bf94ff&labelColor=0d0d1a&logo=github" alt="followers"/></a>
-<a href="https://github.com/vaibhavisharnagat?tab=repositories"><img src="https://img.shields.io/github/stars/vaibhavisharnagat?style=for-the-badge&color=7c3aed&labelColor=0d0d1a&logo=github" alt="stars"/></a>
+<img src="https://komarev.com/ghpvc/?username=webhavi&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0d0d1a" alt="views"/>
+<a href="https://github.com/webhavi?tab=followers"><img src="https://img.shields.io/github/followers/webhavi?style=for-the-badge&color=bf94ff&labelColor=0d0d1a&logo=github" alt="followers"/></a>
+<a href="https://github.com/webhavi?tab=repositories"><img src="https://img.shields.io/github/stars/webhavi?style=for-the-badge&color=7c3aed&labelColor=0d0d1a&logo=github" alt="stars"/></a>
 <a href="https://leetcode.com/u/vaibhavisharnagat/"><img src="https://img.shields.io/badge/LeetCode-66_solved-0d0d1a?style=for-the-badge&logo=leetcode&logoColor=ffa116&labelColor=0d0d1a&color=ffa116" alt="leetcode solved"/></a>
 
 </div>
@@ -128,11 +128,6 @@ Vaibhavi().say_hi()
 
 <div align="center">
 <img src="./assets/trophies.svg" alt="Trophy cabinet" width="100%"/>
-
-<br/>
-
-<!-- live GitHub trophies -->
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vaibhavisharnagat&theme=onedark&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub trophies"/></a>
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
@@ -171,9 +166,9 @@ Vaibhavi().say_hi()
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhavisharnagat/vaibhavisharnagat/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhavisharnagat/vaibhavisharnagat/output/github-snake.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/vaibhavisharnagat/vaibhavisharnagat/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/webhavi/webhavi/output/github-snake-dark.svg"/>
 </picture>
 </div>
 
@@ -181,10 +176,12 @@ Vaibhavi().say_hi()
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vaibhavisharnagat&show_icons=true&theme=tokyonight&bg_color=0d0d1a&border_color=7c3aed&icon_color=bf94ff&title_color=bf94ff&text_color=9d7fe0&count_private=true&include_all_commits=true&ring_color=7c3aed" alt="stats"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=vaibhavisharnagat&theme=tokyonight&background=0d0d1a&border=7c3aed&ring=bf94ff&fire=7c3aed&currStreakLabel=bf94ff&sideLabels=9d7fe0&dates=9d7fe0&sideNums=bf94ff&currStreakNum=ffffff" alt="streak"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavisharnagat&layout=compact&bg_color=0d0d1a&border_color=7c3aed&title_color=bf94ff&text_color=9d7fe0&langs_count=8" alt="langs"/>
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavisharnagat&bg_color=0d0d1a&color=bf94ff&line=7c3aed&point=bf94ff&area=true&area_color=7c3aed&hide_border=false&border_color=7c3aed" alt="activity"/>
+<img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="profile details"/>
+<img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="stats"/>
+<img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="top commit languages"/>
+<img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language"/>
+<img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=webhavi&theme=tokyonight&background=0d0d1a&border=7c3aed&ring=bf94ff&fire=7c3aed&currStreakLabel=bf94ff&sideLabels=9d7fe0&dates=9d7fe0&sideNums=bf94ff&currStreakNum=ffffff" alt="streak"/>
 
 </div>
 
@@ -195,6 +192,12 @@ Vaibhavi().say_hi()
 ## 🚀 Currently Shipping
 
 <div align="center">
+<img src="./assets/shipping.svg" alt="Currently shipping" width="100%"/>
+</div>
+
+<details>
+<summary><b>📋 &nbsp;Plain-text version</b></summary>
+<br/>
 
 | Project | Stack | Status |
 |:--------|:------|:------:|
@@ -203,7 +206,7 @@ Vaibhavi().say_hi()
 | 🤖 AI Agent Framework | LangChain · FastAPI · Redis | 🟢 Active |
 | 📊 ML Monitoring Dashboard | MLflow · Grafana · Docker | 🔵 Beta |
 
-</div>
+</details>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -213,7 +216,7 @@ Vaibhavi().say_hi()
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-0d0d1a?style=for-the-badge&logo=github&logoColor=bf94ff)](https://github.com/vaibhavisharnagat)
+[![GitHub](https://img.shields.io/badge/GitHub-0d0d1a?style=for-the-badge&logo=github&logoColor=bf94ff)](https://github.com/webhavi)
 [![LeetCode](https://img.shields.io/badge/LeetCode-0d0d1a?style=for-the-badge&logo=leetcode&logoColor=ffa116)](https://leetcode.com/u/vaibhavisharnagat/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d1a?style=for-the-badge&logo=linkedin&logoColor=bf94ff)](https://linkedin.com/in/vaibhavi-sharnagat-080083332)
 [![Kaggle](https://img.shields.io/badge/Kaggle-0d0d1a?style=for-the-badge&logo=kaggle&logoColor=7c3aed)](https://kaggle.com/vaibhavisharnagat)
