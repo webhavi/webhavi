@@ -181,7 +181,6 @@ Vaibhavi().say_hi()
 <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="top commit languages"/>
 <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language"/>
 <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=webhavi&theme=tokyonight&background=0d0d1a&border=7c3aed&ring=bf94ff&fire=7c3aed&currStreakLabel=bf94ff&sideLabels=9d7fe0&dates=9d7fe0&sideNums=bf94ff&currStreakNum=ffffff" alt="streak"/>
 
 </div>
 
