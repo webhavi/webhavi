@@ -2,8 +2,8 @@ name: Profile Automation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"      # every 12 hours
-  workflow_dispatch:             # "Run workflow" button in the Actions tab
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,13 +13,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # ---------------------------------------------------------------- snake
+  # ---------------- snake  (independent) ----------------
   snake:
     runs-on: ubuntu-latest
-    name: Contribution snake
     steps:
       - uses: Platane/snk/svg-only@v3
-        id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -33,16 +31,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # ------------------------------------------------------------ 3D graph
+  # ---------------- 3D graph  (independent) ----------------
   contrib3d:
     runs-on: ubuntu-latest
-    name: 3D contribution graph
     steps:
       - uses: actions/checkout@v4
 
+      # optional: add a PAT secret named PROFILE_TOKEN to also count private work
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit 3D graphs
@@ -50,22 +48,25 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A profile-3d-contrib
-          git diff --cached --quiet || git commit -m "chore: update 3D contribution graph"
-          git pull --rebase origin main
-          git push
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "chore: update 3D contribution graph"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            sleep 5
+          done
 
-  # ------------------------------------------------------- summary cards
+  # ---------------- summary cards  (runs after 3D, but even if 3D fails) ----------------
   cards:
     runs-on: ubuntu-latest
-    name: Profile summary cards
-    needs: contrib3d            # runs after 3D job so the two pushes never collide
+    needs: contrib3d
+    if: ${{ !cancelled() }}
     steps:
       - uses: actions/checkout@v4
 
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
-          UTC_OFFSET: 5          # India = UTC+5 (rounded; supports whole hours)
+          UTC_OFFSET: 5
